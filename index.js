@@ -1,10 +1,10 @@
-app
+angular
 	.module('egClock',[])
 	.directive('egClock',[function(){
 		return {
 			restrict: 'A',
 			transclude: false,
-			template: '',
+			template: '<div class="container clock tick"><center><h1><strong>{{date}}</strong></h1></center></div>',
 			controller: 'ClockController'
 		};
 	}])
