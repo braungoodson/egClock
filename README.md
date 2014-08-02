@@ -1,4 +1,4 @@
-jta-template
+egClock
 ======
 
 jquery, twitter, and angularjs template. with express server.
