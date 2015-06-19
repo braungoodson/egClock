@@ -4,7 +4,7 @@ angular
 		return {
 			restrict: 'A',
 			transclude: false,
-			template: '<div class="container clock tick"><img src="assets/favicon.png" style="position:absolute;z-index:-1;height:35px;" /><center><h1 style="background-color:#222"><strong>{{date}}</strong></h1></center></div>',
+			template: '<div class="container clock tick"><center><img src="assets/favicon.png" style="position:absolute;z-index:-1;height:35px;" /><h1 style="background-color:#222"><strong>{{date}}</strong></h1></center></div>',
 			controller: 'ClockController'
 		};
 	}])
